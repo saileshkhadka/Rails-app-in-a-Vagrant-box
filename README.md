@@ -41,6 +41,7 @@ Requirements:
 	Gpg2  =>  sudo apt-get install gnugp2
 
 Problem faced during configuration
+
 •	The most common problem is versioning issue when running ruby and some gem package, i.e. system didn’t identify bundle package version according to project.
 
 •	When doing bundle install in project directory make sure first delete/remove Gemfile.lock and then run bundle install. [because gemfile.lock already contains package name which didn’t support in your project].
@@ -59,6 +60,7 @@ su - postgres
 After some googling I found the solution here and needs to restart postgres service sudo service postgresql restart
 
 •	Then I need to give the admin privilege to user ‘postgres’ for the respective database.
+
 •	Then edit database.yml file, define your own database and user pwd here, for eg please see the attached image.
  
 Note: Make sure you update your repository list. 
