@@ -18,6 +18,7 @@ After that you are logged on to the virtual machine.
 To run Ruby application you have to install the respective version of ruby and rails and postgresql database.
 
 Requirements:
+
 	System must be updated i.e. sudo apt-get update
 
 	Install rvm or rbenv version manager to install ruby
