@@ -1,4 +1,9 @@
 # Rails-app-in-a-Vagrant-box
+
+#Author: Sailesh Khadka
+
+#Date: 08/06/2021 11:18:59 pm 
+
 Simple web application built with the Ruby on Rails web framework in a Vagrant box.
 Configure and run image for Vagrant
 
@@ -85,5 +90,9 @@ rails s -b domainname
  
 
 Finally, a simple web is hosted using rails server 
- 
+
+**YOU CAN FIND DEMO_IMG IN **
+
+Rails-app-in-a-Vagrant-box/demogif/
+
 
